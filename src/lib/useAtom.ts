@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStore } from './usseStore'
+import { useStore } from './useStore'
 import { Atom } from './atom'
 
 export function useAtomValue<T>(atom: Atom<T>) {
